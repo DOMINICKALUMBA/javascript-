@@ -40,3 +40,25 @@ function num(limit) {
 
 // Call the function with an argument
 num(50); // This will print even numbers up to 50
+
+//prime numbers
+function primeNumber(){
+  for(let pn = 0; pn <= 20; pn++){
+    if (pn / pn === pn && pn / pn === 1) {
+      console.log(pn)
+    }
+  }
+}
+primeNumber()
+
+
+//reccusion
+function digits(num){
+  let output = 1;
+  for (t = 2; t <= num; t++) {
+    output *= t;
+  }
+  return output
+}
+let ham = function digits(num)
+
