@@ -60,5 +60,7 @@ function digits(num){
   }
   return output
 }
-let ham = function digits(num)
+let ham = digits;
+console.log(ham(5));
+
 
