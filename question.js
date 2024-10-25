@@ -64,3 +64,16 @@ function primeNumber(){
   }
 }
 primeNumber()
+
+
+
+//8.comparing two array
+let array1 = [1,2,3,4,5];
+let array2 = [1,4,9,16,25];
+function compe(array1,array2) {
+    if (array1 = (array2 * array2)) {
+        console.log(true);
+        
+    }
+}
+compe([1,2,3,4,5],[1,4,9,16,25])
