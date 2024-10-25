@@ -63,4 +63,3 @@ function digits(num){
 let ham = digits;
 console.log(ham(5));
 
-
