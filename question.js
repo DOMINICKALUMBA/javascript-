@@ -10,7 +10,7 @@ team.reverse()
 console.log(team)
 
 
-//6.factorial of a given number
+//6.factorial of a given number(5)
 function factorial(num){
     let result = 1;
 
@@ -22,4 +22,7 @@ function factorial(num){
 let output = factorial(5)
 console.log(output);
 
-
+//11.max number in an array
+let maxNumber = [1,20,3,23,4,2,1,99,33,124,200]
+let bigaNo = Math.max(maxNumber)
+console.log(bigaNo);
