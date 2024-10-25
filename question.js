@@ -26,3 +26,16 @@ console.log(output);
 let maxNumber = [1,20,3,23,4,2,1,99,33,124,200]
 let bigaNo = Math.max(maxNumber)
 console.log(bigaNo);
+
+//17.sorting array in ascending order
+let arr1 = [8,9,4,7,3,1,2,5,6]
+console.log(arr1.sort(function (a, b) {
+    return a - b;
+}))
+
+
+//18.sorting array in descending order
+let arr2 = [8,9,4,7,3,1,2,5,6]
+console.log(arr2.sort(function (a, b) {
+    return b - a;
+}))
