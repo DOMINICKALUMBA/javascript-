@@ -71,9 +71,10 @@ primeNumber()
 let array1 = [1,2,3,4,5];
 let array2 = [1,4,9,16,25];
 function compe(array1,array2) {
-    if (array1 = (array2 * array2)) {
-        console.log(true);
+    if (array1 === (array2 * array2)) {
+        //console.log(true);
         
     }
+    return true
 }
-compe([1,2,3,4,5],[1,4,9,16,25])
+console.log(compe([1,2,3,4,5],[1,4,9,16,25]))
