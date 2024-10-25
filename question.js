@@ -22,6 +22,8 @@ function factorial(num){
 let output = factorial(5)
 console.log(output);
 
+
+//***************************************************************************
 //11.max number in an array
 let maxNumber = [1,20,3,23,4,2,1,99,33,124,200]
 let bigaNo = Math.max(maxNumber)
@@ -39,3 +41,26 @@ let arr2 = [8,9,4,7,3,1,2,5,6]
 console.log(arr2.sort(function (a, b) {
     return b - a;
 }))
+
+//12.function that return even numbers
+function evenNumbers(even) {
+    for (let b = 0; b <= even ; b++) {
+        if (b % 2 === 0) {
+            console.log(b);
+            
+        }
+        
+    }
+}
+evenNumbers(20)
+
+
+//13.prime numbers
+function primeNumber(){
+  for(let pn = 0; pn <= 20; pn++){
+    if (pn / pn === pn && pn / pn === 1) {
+      console.log(pn)
+    }
+  }
+}
+primeNumber()
