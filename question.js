@@ -78,3 +78,9 @@ function compe(array1,array2) {
     return true
 }
 console.log(compe([1,2,3,4,5],[1,4,9,16,25]))
+
+//14.largest element in an array
+let nestArray = [20,30,29,11,21,43,50]
+
+let nest = Math.max(nestArray)
+console.log(nest);
