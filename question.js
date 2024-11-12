@@ -87,14 +87,21 @@ console.log(nest);
 
 
 //************************************array that return only evenNumbers i an array
-let array = [1,2,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
-function evenNumbers(Arr) {
-    for (let e = 0; e < array.length; e++) {
+//let array = [1,2,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+//function evenNumbers(Arr) {
+   // for (let e = 0; e < array.length; e++) {
         
-        if (Arr[e]  % 2 === 0 ) {
+       // if (Arr[e]  % 2 === 0 ) {
             
-        }
-    }
-    return Arr
-}
-console.log(evenNumbers(array));
+     //   }
+   // }
+  //  return Arr
+//}
+//console.log(evenNumbers(array));
+
+
+
+
+//20 array that flatten nested array
+let fla = [1,2,[3[4,2,3]]];
+console.log(fla.flat());
