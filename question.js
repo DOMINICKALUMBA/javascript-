@@ -23,11 +23,14 @@ let output = factorial(5)
 console.log(output);
 
 
-//***************************************************************************
+console.log("max number in an array");
+
 //11.max number in an array
 let maxNumber = [1,20,3,23,4,2,1,99,33,124,200]
-let bigaNo = Math.max(maxNumber)
+let bigaNo = Math.max(...maxNumber)
 console.log(bigaNo);
+
+
 
 //17.sorting array in ascending order
 let arr1 = [8,9,4,7,3,1,2,5,6]
@@ -42,6 +45,9 @@ console.log(arr2.sort(function (a, b) {
     return b - a;
 }))
 
+
+console.log("evennumbers");
+
 //12.function that return even numbers
 function evenNumbers(even) {
     for (let b = 0; b <= even ; b++) {
@@ -52,7 +58,30 @@ function evenNumbers(even) {
         
     }
 }
+
 evenNumbers(20)
+
+
+console.log("even no in array");
+
+function numb(eveNo) {
+    let aarr = [];
+    for (let i = 0; i < eveNo1.length; i++) {
+       
+        if (eveNo[i]  % 2 === 0) {
+           aarr.push(eveNo[i])
+        };
+        
+    }
+    return aarr
+}
+let eveNo1 = [1,2,3,4,2,3,8,32,21,28]
+let Num = numb(eveNo1)
+console.log(Num);
+
+
+
+
 
 
 //13.prime numbers
@@ -79,6 +108,9 @@ function compe(array1,array2) {
 }
 console.log(compe([1,2,3,4,5],[1,4,9,16,25]))
 
+
+
+
 //14.largest element in an array
 let nestArray = [20,30,29,11,21,43,50]
 
@@ -86,22 +118,28 @@ let nest = Math.max(nestArray)
 console.log(nest);
 
 
+
+
 //************************************array that return only evenNumbers i an array
-//let array = [1,2,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
-//function evenNumbers(Arr) {
-   // for (let e = 0; e < array.length; e++) {
+
+console.log('array that return only evenNumbers i an array');
+
+let array = [1,2,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+function evenNumbers(Arr) {
+   let arr4 = []
+    for (let e = 0; e < Arr.length; e++) {
         
-       // if (Arr[e]  % 2 === 0 ) {
-            
-     //   }
-   // }
-  //  return Arr
-//}
-//console.log(evenNumbers(array));
+       if (Arr[e]  % 2 === 0 ) {
+            arr4.push(Arr)
+       }
+    }
+    return Arr
+}
+console.log(evenNumbers(array));
 
 
 
 
 //20 array that flatten nested array
 let fla = [1,2,[3[4,2,3]]];
-console.log(fla.flat());
+console.log(fla.flat())
