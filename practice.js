@@ -63,3 +63,13 @@ function digits(num){
 let ham = digits;
 console.log(ham(5));
 
+
+
+//function that add sumof two numbers
+function summation() {
+  let s1 = 3;
+  let s2 = 4;
+  return s1 + s2
+}
+let sums1s2 = summation()
+console.log(sums1s2);
