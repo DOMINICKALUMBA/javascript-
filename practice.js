@@ -73,3 +73,22 @@ function summation() {
 }
 let sums1s2 = summation()
 console.log(sums1s2);
+
+
+//sum of two numbers that add up to the target
+
+function twoSum(nums, target) {
+  for(let i = 0;i < nums.length; i++){
+      for(let j = i + 1; j < nums.length;j++){
+          if(nums[i] + nums[j] === target){
+              return [i , j]
+          }
+      }
+  }
+  return "No solution found!"; 
+};
+
+const nums = [2, 7, 11, 15,8];
+const target = 10;
+let results = twoSum(nums, target); 
+console.log(results)
