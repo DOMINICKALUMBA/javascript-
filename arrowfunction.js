@@ -4,3 +4,8 @@ function sum(s1,s2) {
     }
 
 console.log(sum(2,3));
+
+
+//arrow function
+const add = (a,b) => a + b
+console.log(add(2,3));
